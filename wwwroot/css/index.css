@@ -1,5 +1,2 @@
-@import "./typography.css";
-
-h1 {
-    color: white;
-}
+@import "typography.css";
+@import "general.css";
