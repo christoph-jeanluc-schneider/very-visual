@@ -1,0 +1,14 @@
+{
+  "name": "very-visual",
+  "version": "1.0.0",
+  "description": "It's just very visual...",
+  "main": "server/main.js",
+  "author": "Christoph Jean-Luc Schneider",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "pug": "^3.0.0",
+    "restana": "^4.6.1",
+    "serve-static": "^1.14.1"
+  }
+}
