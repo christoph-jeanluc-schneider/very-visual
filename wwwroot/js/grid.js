@@ -31,9 +31,9 @@ class Grid {
 
                 let char = toAscii( this.values[ r ][ c ] );
 
-                textSize( 16 );
+                textSize( 36 );
                 fill( 200 );
-                text( char, ( c * 10 ) + 4, ( r * 16 ) + 14 );
+                text( char, c * 20, ( r * 32 ) + 36 );
 
             }
         }

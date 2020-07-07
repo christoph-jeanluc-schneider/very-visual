@@ -5,8 +5,8 @@ var grid;
 function setup() {
     createCanvas( windowWidth, windowHeight );
 
-    columns = Math.floor( windowWidth * 0.1 ); // width / 10
-    rows = Math.floor( windowHeight * 0.0625 ); // height / 16
+    columns = Math.floor( windowWidth / 20 );
+    rows = Math.floor( windowHeight / 32 );
 
     grid = new Grid( columns, rows );
 }
@@ -18,8 +18,8 @@ function draw() {
 }
 
 function mouseMoved() {
-    let column = floor( mouseX * 0.1 );
-    let row = floor( mouseY * 0.0625 );
+    let column = floor( mouseX / 20 );
+    let row = floor( mouseY / 32 );
 
     grid.values[ row ][ column ] = 255;
 }
